@@ -53,9 +53,19 @@ python google-api.py
 1. Go to the Google Cloud Console.
 2. Create a new project and enable the Google Sheets API.
 3. Create a Service Account and download the credentials as service_account.json.
-4. Share your Google Sheet with the service account's email.
+4. Replace the placeholder fields in the provided service_account.json file:
+- project_id
+- private_key_id
+- private_key
+- client_email
+- client_id
+  
 
-I have included a sample service_account.json to avoid sharing sensitive information.
+I have included a sample service_account.json to avoid sharing sensitive information. Once the program runs successfully, the output will display a link to the Google Sheet. For example:
+
+```bash
+Spreadsheet URL: https://docs.google.com/spreadsheets/d/12yogW62HY29nQWAwjhFh35YQV8Zv2mz1_qerduBSlH4/edit
+```
 
 
 
